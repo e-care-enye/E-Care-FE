@@ -1,9 +1,10 @@
+import Sidebar from '../../../Components/Sidebar/Sidebar';
 import './PractDash.css';
 
 const PractDash = () => {
     return ( 
         <div className="practdash">
-            <h2>Practitioner Dashboard</h2>
+            <Sidebar />
         </div>
      );
 }
